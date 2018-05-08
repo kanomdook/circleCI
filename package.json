@@ -1,0 +1,25 @@
+{
+  "name": "circle-ci",
+  "version": "1.0.0",
+  "description": "mongoose express nodejs for server only",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "circle-ci"
+  ],
+  "author": "dookdik",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12",
+    "should": "^13.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "supertest": "^3.0.0"
+  }
+}
